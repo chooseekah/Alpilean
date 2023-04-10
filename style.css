@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: fixed;
+}
+
+body {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    color: rgb(38, 43, 67);
+    
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url("../New\ Folder\ With\ Items/alpi.jpg.png.jpg");
+    opacity: 0.9 ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-top: 5px;
+     text-decoration: overline underline  ;
+}
+
+#showcase p {
+
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+opacity: 0.7;
+}
+  
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    border: coral 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: hotpink;
+    color: chartreuse;
+}
+#showcase .button div {
+    padding-right: 100px;
+}
+
+#section-a {
+    padding: 20px;
+    background: rgb(122, 144, 167);
+    color: rgb(35, 42, 60);
+    border: solid black 3px;
+    text-align: center;
+}
+
+#section-b {
+padding: 20px;
+background: gray;
+color: chocolate;
+text-align: center;
+
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+padding: 20px;
+
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background:firebrick;
+    color: sienna;
+}
+
+#section-c .box-2 {
+    background: khaki;
+}
+
+#p {
+line-height: 0%;
+background-color: aliceblue;
+border-radius: 10%;
+padding: 0%;
+margin-top: 0%;
+
+}
+
+#u {
+    color: black;
+    line-height: 255%;
+    background-color: azure
+    
+    
+}
+
+#u {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+#i {
+    font-size: xx-large;
+}
+
+.k {
+    align-items: baseline;
+    padding-bottom: 0%;
+    margin-top: 0%;
+}
+
+#w {
+    font-size: 40px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
